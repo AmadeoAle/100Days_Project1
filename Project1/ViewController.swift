@@ -29,6 +29,9 @@ class ViewController: UITableViewController {
         //Add a title
         title = "Storm Viewer"
         navigationController?.navigationBar.prefersLargeTitles = true
+        
+        //Agregando un botón de prueba - Git remote
+        showButton()
        
     }
     
