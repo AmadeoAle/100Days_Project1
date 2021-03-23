@@ -58,6 +58,13 @@ class ViewController: UITableViewController {
             destination.imageString = imageString
         }
     }
+    
+    func showButton(){
+        let controller = UIAlertController(title: "Solo es una prueba", message: "Un botón de prueba", preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        controller.addAction(action)
+        self.present(controller, animated: true, completion: nil)
+    }
 
 }
 
