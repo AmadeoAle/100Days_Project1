@@ -7,6 +7,7 @@
 
 import UIKit
 
+//Agregando un commentario para hacer commit 1
 class ViewController: UITableViewController {
     var pictures = [String]()
     var imageString: String?
